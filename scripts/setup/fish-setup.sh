@@ -9,6 +9,8 @@ echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
 echo '  exec tmux' >> ~/.config/fish/config.fish
 echo 'end' >> ~/.config/fish/config.fish
 
+chsh -s /usr/bin/fish
+
 # asdf fish integration
 mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions
 
