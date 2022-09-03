@@ -6,13 +6,14 @@ then
     exit 1
 fi
 
-bash script/dnf/build-essentials-install.sh
-bash script/dnf/chrome-install.sh
-bash script/dnf/docker-install.sh
-bash script/dnf/fish-shell-install.sh
-bash script/dnf/htop-install.sh
-bash script/dnf/qbittorrent-install.sh
-bash script/dnf/tig-install.sh
-bash script/dnf/tmux-install.sh
-bash script/dnf/sublime-text-install.sh
-bash script/dnf/visual-studio-code-install.sh
+bash scripts/dnf/build-essentials-install.sh
+bash scripts/dnf/chrome-install.sh
+bash scripts/dnf/docker-install.sh
+bash scripts/dnf/fish-shell-install.sh
+bash scripts/dnf/htop-install.sh
+bash scripts/dnf/qbittorrent-install.sh
+bash scripts/dnf/sublime-text-install.sh
+bash scripts/dnf/tig-install.sh
+bash scripts/dnf/tmux-install.sh
+bash scripts/dnf/visual-studio-code-install.sh
+bash scripts/dnf/visual-xclip-install.sh
