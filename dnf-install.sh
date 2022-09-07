@@ -9,6 +9,7 @@ fi
 bash scripts/dnf/build-essentials-install.sh
 bash scripts/dnf/chrome-install.sh
 bash scripts/dnf/docker-install.sh
+bash scripts/dnf/erlang-dependencies-install.sh
 bash scripts/dnf/fish-shell-install.sh
 bash scripts/dnf/htop-install.sh
 bash scripts/dnf/qbittorrent-install.sh
