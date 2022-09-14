@@ -6,6 +6,7 @@ then
     exit 1
 fi
 
+bash scripts/dnf/atom-install.sh
 bash scripts/dnf/build-essentials-install.sh
 bash scripts/dnf/chrome-install.sh
 bash scripts/dnf/docker-install.sh
