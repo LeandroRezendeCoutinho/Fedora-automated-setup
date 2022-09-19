@@ -23,3 +23,5 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 # Themes
 # Fish Shell prompt for Astronauts
 fisher install matchai/spacefish
+
+echo 'Restart session after fish setup'
