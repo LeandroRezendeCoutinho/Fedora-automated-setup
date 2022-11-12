@@ -1,3 +1,5 @@
+#!bin/bash
+
 echo "Starting nodejs setup"
 
 asdf plugin add nodejs

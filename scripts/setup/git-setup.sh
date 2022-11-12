@@ -1,5 +1,3 @@
-
-
 #!bin/bash
 
 echo "Git configuration section"
