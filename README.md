@@ -57,3 +57,7 @@ bash flatpak-install.sh
 * git
 * swappiness
 * tmux
+
+#### Extra packages
+
+* Multimedia pack 
