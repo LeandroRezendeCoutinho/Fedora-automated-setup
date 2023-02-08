@@ -13,6 +13,7 @@ bash scripts/dnf/erlang-dependencies-install.sh
 bash scripts/dnf/fish-shell-install.sh
 bash scripts/dnf/gnome-tweaks-install.sh
 bash scripts/dnf/htop-install.sh
+bash scripts/dnf/microsoft-edge-install.sh
 bash scripts/dnf/opera-install.sh
 bash scripts/dnf/qbittorrent-install.sh
 bash scripts/dnf/sublime-text-install.sh
