@@ -16,6 +16,7 @@ bash scripts/dnf/htop-install.sh
 bash scripts/dnf/microsoft-edge-install.sh
 bash scripts/dnf/opera-install.sh
 bash scripts/dnf/qbittorrent-install.sh
+bash scripts/dnf/ruby-dependencies-install.sh
 bash scripts/dnf/sublime-text-install.sh
 bash scripts/dnf/tig-install.sh
 bash scripts/dnf/tmux-install.sh
