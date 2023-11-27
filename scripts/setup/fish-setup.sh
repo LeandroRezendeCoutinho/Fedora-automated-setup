@@ -8,6 +8,7 @@ echo 'if status is-interactive' >> ~/.config/fish/config.fish
 echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
 echo '  exec tmux' >> ~/.config/fish/config.fish
 echo 'end' >> ~/.config/fish/config.fish
+echo 'starship init fish | source' >> '~/.config/fish/config.fish'
 
 chsh -s /usr/bin/fish
 
@@ -23,5 +24,7 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 # Themes
 # Fish Shell prompt for Astronauts
 fisher install matchai/spacefish
+
+curl -sS https://starship.rs/install.sh | sh
 
 echo 'Restart session after fish setup'
