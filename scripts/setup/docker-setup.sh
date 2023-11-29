@@ -6,6 +6,8 @@ echo "Starting docker setup"
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
+newgrp docker
+
 # enable and start service
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
