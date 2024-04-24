@@ -22,9 +22,6 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 # Themes
-# Fish Shell prompt for Astronauts
-fisher install matchai/spacefish
-
 curl -sS https://starship.rs/install.sh | sh
 
 echo 'Restart session after fish setup'

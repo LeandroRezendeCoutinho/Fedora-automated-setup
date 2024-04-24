@@ -9,7 +9,6 @@ fi
 bash scripts/dnf/build-essentials-install.sh
 bash scripts/dnf/chrome-install.sh
 bash scripts/dnf/docker-install.sh
-bash scripts/dnf/erlang-dependencies-install.sh
 bash scripts/dnf/fish-shell-install.sh
 bash scripts/dnf/gnome-tweaks-install.sh
 bash scripts/dnf/htop-install.sh
@@ -22,3 +21,6 @@ bash scripts/dnf/tig-install.sh
 bash scripts/dnf/tmux-install.sh
 bash scripts/dnf/visual-studio-code-install.sh
 bash scripts/dnf/xclip-install.sh
+
+# optional
+# bash scripts/dnf/erlang-dependencies-install.sh
