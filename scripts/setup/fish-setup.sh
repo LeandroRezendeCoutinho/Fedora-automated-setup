@@ -8,7 +8,7 @@ echo 'if status is-interactive' >> ~/.config/fish/config.fish
 echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
 echo '  exec tmux' >> ~/.config/fish/config.fish
 echo 'end' >> ~/.config/fish/config.fish
-echo 'starship init fish | source' >> '~/.config/fish/config.fish'
+echo 'starship init fish | source' >> ~/.config/fish/config.fish
 
 chsh -s /usr/bin/fish
 
