@@ -2,18 +2,19 @@
 
 echo "Starting FISH setup"
 
-# config file
-echo 'source ~/.asdf/asdf.fish' > ~/.config/fish/config.fish
+# tmux
 echo 'if status is-interactive' >> ~/.config/fish/config.fish
 echo 'and not set -q TMUX' >> ~/.config/fish/config.fish
 echo '  exec tmux' >> ~/.config/fish/config.fish
 echo 'end' >> ~/.config/fish/config.fish
+
+# theme
 echo 'starship init fish | source' >> ~/.config/fish/config.fish
 
-chsh -s /usr/bin/fish
+# mise
+echo '~/.local/bin/mise activate fish | source' >> ~/.config/fish/config.fish
 
-# asdf fish integration
-mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions
+chsh -s /usr/bin/fish
 
 # Oh My Fish - The Fish Shell Framework
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish

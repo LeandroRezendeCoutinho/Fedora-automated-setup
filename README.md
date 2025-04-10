@@ -50,11 +50,11 @@ bash flatpak-install.sh
 
 #### Environment setup for
 
-* asdf
 * docker
 * fish
 * flatpak
 * git
+* mise
 * swappiness
 * tmux
 
