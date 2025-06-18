@@ -8,4 +8,6 @@ fi
 
 dnf group install "C Development Tools and Libraries" "Development Tools" -y
 
+dnf install gcc-c++ -y
+
 dnf install cmake -y
